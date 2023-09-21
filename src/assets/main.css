@@ -1,9 +1,24 @@
 @import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@400;800&display=swap');
 
 #app {
   width: 100%;
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.yellow {
+  color: #ffc612 !important;
+}
+
+.pink {
+  color: #f46a6a !important;
+}
+
+.blue {
+  color: #2671bc !important;
+}
+
 /* 
 @media (hover: hover) {
   a:hover {
