@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import NavBar from './NavBar.vue'
 
-defineProps<{
-  msg: string
-}>()
+// defineProps<{
+//   msg: string
+// }>()
 </script>
 
 <template>
@@ -18,7 +18,7 @@ defineProps<{
       height="175"
     />
 
-    <h3 class="fw-bold outline yellow text-uppercase">Hi There!</h3>
+    <h3 class="fw-bold outline yellow text-uppercase">Hello World!</h3>
     <h1 class="mb-4">I'm <strong class="blue">Luana</strong></h1>
 
     <div class="d-flex flex-column text-center">
@@ -71,9 +71,5 @@ defineProps<{
       height: 100%;
     }
   }
-}
-
-.outline {
-  font-family: 'Montserrat Subrayada', sans-serif;
 }
 </style>

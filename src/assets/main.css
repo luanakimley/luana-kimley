@@ -19,6 +19,37 @@
   color: #2671bc !important;
 }
 
+.outline {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.badge-pink {
+  background-color: #f46a6a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.75rem;
+}
+
+.badge-yellow {
+  background-color: #ffc612;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.75rem;
+}
+
+.badge-blue {
+  background-color: #2671bc;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.75rem;
+}
+
 /* 
 @media (hover: hover) {
   a:hover {
