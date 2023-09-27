@@ -1,5 +1,21 @@
 <script setup lang="ts">
 import NavBar from './NavBar.vue'
+import kultura from '../assets/projects/kultura.png'
+import kultura2 from '../assets/projects/kultura2.jpg'
+import relievo from '../assets/projects/relievo.png'
+import relievo2 from '../assets/projects/relievo2.jpg'
+import wattwatch from '../assets/projects/wattwatch.png'
+import wattwatch2 from '../assets/projects/wattwatch2.jpg'
+import androidnews from '../assets/projects/androidnews.png'
+import cityofextremism from '../assets/projects/cityofextremism.png'
+import cityofextremism2 from '../assets/projects/cityofextremism2.jpg'
+import ecommerce from '../assets/projects/ecommerce.gif'
+import greenhouse from '../assets/projects/greenhouse.png'
+import portometro from '../assets/projects/portometro.png'
+import spacewarriors from '../assets/projects/spacewarriors.gif'
+import studyabroad from '../assets/projects/studyabroad.png'
+import studyabroad2 from '../assets/projects/studyabroad2.jpg'
+import portfolio from '../assets/projects/portfolio.png'
 
 const internationalProjects = [
   {
@@ -9,7 +25,7 @@ const internationalProjects = [
       'Start-IT is an Erasmus+ funded project that aims to bring together students from several countries (Ireland, Poland, Belgium, Finland, Germany) to make an app on the topic of sustainable tourism. My team and I developed an app called Kultura, which aims to promote sustainable tourism in Porto, Portugal through folklores and legends around the city.',
     location: 'Porto, Portugal',
     link: 'https://www.figma.com/proto/Yw6z4byQI1RieqMmUhfzDU/Sisu?node-id=20-950&starting-point-node-id=20%3A950&mode=design&t=SS485cqkyDUZ8EvB-1',
-    image: ['../src/assets/projects/kultura.png', '../src/assets/projects/kultura2.jpg'],
+    image: [kultura, kultura2],
     tags: [
       'Figma',
       'App Prototype',
@@ -26,7 +42,7 @@ const internationalProjects = [
       'Innovation Days (I-Days) promote health innovation among university students through 2-day programmes held in universities around Europe. My team and I developed a prototype to help manage chronic illness, specifically stress among people with hypertension. We came in 2nd overall out of 20 teams.',
     location: 'Dundalk, Ireland',
     link: 'https://www.figma.com/proto/I6NnC0YKRGbDpuGzqQHVmp/Relievo?type=design&node-id=2-35&t=0MtLYcDK4lvVArxw-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A35',
-    image: ['../src/assets/projects/relievo.png', '../src/assets/projects/relievo2.jpg'],
+    image: [relievo, relievo2],
     tags: [
       'Figma',
       'App Prototype',
@@ -43,7 +59,7 @@ const internationalProjects = [
       'Towards 15-Minute Eco City is an Erasmus+ funded project that brings students from Ireland, Portugal, France, and Poland to develop an app prototype that aims to promote sustainable 15-minutes eco cities. My team and I developed an app called WattWatch, which aims to promote sustainable energy consumption through smart houses',
     location: 'Lodz, Poland',
     link: 'https://www.figma.com/proto/F1XwzVHu7aVzy0OPjIEYOk/WattWatch?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=h2WMY0AFotYxekK3-1',
-    image: ['../src/assets/projects/wattwatch.png', '../src/assets/projects/wattwatch2.jpg'],
+    image: [wattwatch, wattwatch2],
     tags: ['Figma', 'App Prototype', 'UI/UX Design', 'Smart House', 'Teamwork', 'Public Speaking']
   },
   {
@@ -53,7 +69,7 @@ const internationalProjects = [
       'eCOAL is an Erasmus+ funded app development coding project with students from Ireland, France, and Portugal. We developed a mobile newspaper application with a topic of our choice using React, Node.js, and SQLite. We chose the topic “Study Abroad” and also did presentations and pitches for our application.',
     location: 'Lens, France',
     link: 'https://github.com/quentinhnrt/study-abroad',
-    image: ['../src/assets/projects/studyabroad.png', '../src/assets/projects/studyabroad2.jpg'],
+    image: [studyabroad, studyabroad2],
     tags: [
       'Responsive Web Design',
       'React',
@@ -71,10 +87,7 @@ const internationalProjects = [
       'Selected to be part of an EU-funded project, working with NGOs from France and the Netherlands, aiming to create games that can be used in secondary schools in Europe. My team consists of students from Ireland, Poland, Belgium, and Germany. We developed a demo of a game called City of Extremism using a Javascript game engine',
     location: 'Porto, Portugal',
     link: 'https://github.com/niall-oreilly21/CityOfExtremism',
-    image: [
-      '../src/assets/projects/cityofextremism.png',
-      '../src/assets/projects/cityofextremism2.jpg'
-    ],
+    image: [cityofextremism, cityofextremism2],
     tags: ['Javascript', 'Game Development', 'Fighting Extremism', 'Teamwork', 'Public Speaking']
   }
 ]
@@ -85,7 +98,7 @@ const projects = [
     description:
       "A website to showcase my projects and skills, and to get to know more about me (which is what you're looking at now!). Hope you're enjoying what you see 😉 (it's still a work in progress!)",
     link: 'https://github.com/luanakimley/luana-kimley',
-    image: '../src/assets/projects/portfolio.png',
+    image: portfolio,
     tags: ['HTML', 'CSS', 'Vue.js', 'Typescript', 'Bootstrap'],
     international: false
   },
@@ -94,7 +107,7 @@ const projects = [
     description:
       'A system that will provide monitoring and control of a greenhouse that can be accessed through a website. My role was to develop the website using Flask and to design the UI/UX of the website using Figma.',
     link: 'https://github.com/luanakimley/GreenhouseManagementSystem',
-    image: '../src/assets/projects/greenhouse.png',
+    image: greenhouse,
     tags: [
       'Python',
       'Flask',
@@ -113,7 +126,7 @@ const projects = [
     description:
       'A Java desktop application that will show several informations about the Porto Metro System, such as the schedule, journey planner, and stations. Also provides a feature that allows users to order metro cards. My role was to develop the GUI of the app using JavaFx with FXML and CSS.',
     link: 'https://github.com/niall-oreilly21/PortoMetro',
-    image: '../src/assets/projects/portometro.png',
+    image: portometro,
     tags: ['Java', 'JavaFx - FXML', 'MySQL', 'CSS', 'Apache Maven'],
     international: false
   },
@@ -122,7 +135,7 @@ const projects = [
     description:
       'A combat game developed in Python using Pygame. I worked mostly on the asset designs and also some of the game mechanics, such as the attack and potions.',
     link: 'https://github.com/niall-oreilly21/Space-Warriors',
-    image: '../src/assets/projects/spacewarriors.gif',
+    image: spacewarriors,
     tags: ['Python', 'Pygame', 'Game Development', 'Asset Design'],
     international: false
   },
@@ -132,7 +145,7 @@ const projects = [
       'A responsive web app that allows users to browse and buy products. Consists of three access levels, which are admin, logged-in user, and guest.',
 
     link: 'https://github.com/luanakimley/ecommerce-web-app',
-    image: '../src/assets/projects/ecommerce.gif',
+    image: ecommerce,
     tags: ['React', 'Node.js', 'Express', 'HTML', 'MongoDB', 'SCSS', 'Javascript'],
     international: false
   },
@@ -141,7 +154,7 @@ const projects = [
     description:
       'An Android application that displays news from the News API. It is developed using Kotlin and Android Studio.',
     link: 'https://studentdkit-my.sharepoint.com/:v:/g/personal/d00234604_student_dkit_ie/ETCrY3KszYxDuKoFdmJr19YBSUne7HzrmQMoF6RXA1NV_g?e=YMLXKA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19',
-    image: '../src/assets/projects/androidnews.png',
+    image: androidnews,
     tags: ['Kotlin', 'Android Studio', 'Mobile Development'],
     international: false
   }
@@ -239,7 +252,6 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
     <div class="container my-5 d-flex flex-wrap justify-content-center gap-5">
       <div v-for="project in projects" :key="project['title']" class="card" style="width: 20rem">
         <img :src="project['image']" class="card-img-top" alt="Project picture" />
-        {{ console.log(project['image']) }}
         <div class="card-body">
           <h3 class="card-title blue text-center m-3">
             <a class="nav-link" :href="project['link']" target="_blank"
