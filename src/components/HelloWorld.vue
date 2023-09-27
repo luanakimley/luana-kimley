@@ -13,12 +13,12 @@ import NavBar from './NavBar.vue'
     <img
       class="rounded-circle mb-4"
       alt="Luana picture"
-      src="@/assets/profile.jpg"
-      width="175"
-      height="175"
+      src="@/assets/profile/profile.jpg"
+      width="200"
+      height="200"
     />
 
-    <h3 class="fw-bold outline yellow text-uppercase">Hello World!</h3>
+    <h2 class="fw-bold outline yellow text-uppercase">Hello World!</h2>
     <h1 class="mb-4">I'm <strong class="blue">Luana</strong></h1>
 
     <div class="d-flex flex-column text-center">

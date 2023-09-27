@@ -17,8 +17,8 @@ const skills = {
     'Jasmine',
     'Python',
     'Flask',
-    'pygame',
-    'Data Science',
+    'Pygame',
+    'NumPy',
     'Java',
     'JavaFX - FXML',
     'PHP',
@@ -57,7 +57,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
     <h1 class="fw-bold outline yellow text-uppercase mb-4 text-center pb-3 pt-5">About Me</h1>
     <div class="d-flex justify-content-center flex-column">
       <img
-        src="../assets/profile2.jpg"
+        src="../assets/profile/profile2.jpg"
         alt="Luana Kimley"
         class="rounded mx-auto mb-4"
         width="300"
@@ -65,7 +65,10 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
       <p class="my-2 mx-5 text-center">
         Hi there! My name is <strong class="blue">Luana Kimley,</strong> a final year Indonesian
         student studying<br />
-        <strong class="pink">BSc in Computing in Software Development @ DkIT.</strong>
+        <strong class="pink">BSc in Computing in Software Development @ DkIT.</strong><br />
+        Outside my studies, one thing I really love to do is to
+        <strong class="yellow">travel</strong> and learning new
+        <strong class="yellow">cultures!</strong>
       </p>
     </div>
     <div class="card-group m-5 mx-auto w-75">
@@ -75,7 +78,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
 
           <div class="card-text d-flex align-items-center">
             <div>
-              <img src="../assets/ireland.png" alt="Ireland" width="50" class="me-2" />
+              <img src="../assets/flags/ireland.png" alt="Ireland" width="50" class="me-2" />
             </div>
             <div>
               <div class="blue">Dundalk Institute of Technology</div>
@@ -86,7 +89,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
           <div class="vertical-line-dashed"></div>
           <div class="card-text d-flex align-items-center">
             <div>
-              <img src="../assets/portugal.png" alt="Portugal" width="50" class="me-2" />
+              <img src="../assets/flags/portugal.png" alt="Portugal" width="50" class="me-2" />
             </div>
             <div>
               <div class="blue">Instituto Superior Politécnico Gaya</div>
@@ -97,7 +100,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
           <div class="vertical-line"></div>
           <div class="card-text d-flex align-items-center">
             <div>
-              <img src="../assets/indonesia.png" alt="Indonesia" width="50" class="me-2" />
+              <img src="../assets/flags/indonesia.png" alt="Indonesia" width="50" class="me-2" />
             </div>
             <div>
               <div class="blue">Saint Ursula Senior High School</div>
