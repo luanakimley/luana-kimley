@@ -9,7 +9,7 @@ const internationalProjects = [
       'Start-IT is an Erasmus+ funded project that aims to bring together students from several countries (Ireland, Poland, Belgium, Finland, Germany) to make an app on the topic of sustainable tourism. My team and I developed an app called Kultura, which aims to promote sustainable tourism in Porto, Portugal through folklores and legends around the city.',
     location: 'Porto, Portugal',
     link: 'https://www.figma.com/proto/Yw6z4byQI1RieqMmUhfzDU/Sisu?node-id=20-950&starting-point-node-id=20%3A950&mode=design&t=SS485cqkyDUZ8EvB-1',
-    image: ['kultura.png', 'kultura2.jpg'],
+    image: ['../src/assets/projects/kultura.png', '../src/assets/projects/kultura2.jpg'],
     tags: [
       'Figma',
       'App Prototype',
@@ -26,7 +26,7 @@ const internationalProjects = [
       'Innovation Days (I-Days) promote health innovation among university students through 2-day programmes held in universities around Europe. My team and I developed a prototype to help manage chronic illness, specifically stress among people with hypertension. We came in 2nd overall out of 20 teams.',
     location: 'Dundalk, Ireland',
     link: 'https://www.figma.com/proto/I6NnC0YKRGbDpuGzqQHVmp/Relievo?type=design&node-id=2-35&t=0MtLYcDK4lvVArxw-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A35',
-    image: ['relievo.png', 'relievo2.jpg'],
+    image: ['../src/assets/projects/relievo.png', '../src/assets/projects/relievo2.jpg'],
     tags: [
       'Figma',
       'App Prototype',
@@ -43,7 +43,7 @@ const internationalProjects = [
       'Towards 15-Minute Eco City is an Erasmus+ funded project that brings students from Ireland, Portugal, France, and Poland to develop an app prototype that aims to promote sustainable 15-minutes eco cities. My team and I developed an app called WattWatch, which aims to promote sustainable energy consumption through smart houses',
     location: 'Lodz, Poland',
     link: 'https://www.figma.com/proto/F1XwzVHu7aVzy0OPjIEYOk/WattWatch?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=h2WMY0AFotYxekK3-1',
-    image: ['wattwatch.png', 'wattwatch2.jpg'],
+    image: ['../src/assets/projects/wattwatch.png', '../src/assets/projects/wattwatch2.jpg'],
     tags: ['Figma', 'App Prototype', 'UI/UX Design', 'Smart House', 'Teamwork', 'Public Speaking']
   },
   {
@@ -53,7 +53,7 @@ const internationalProjects = [
       'eCOAL is an Erasmus+ funded app development coding project with students from Ireland, France, and Portugal. We developed a mobile newspaper application with a topic of our choice using React, Node.js, and SQLite. We chose the topic “Study Abroad” and also did presentations and pitches for our application.',
     location: 'Lens, France',
     link: 'https://github.com/quentinhnrt/study-abroad',
-    image: ['studyabroad.png', 'studyabroad2.jpg'],
+    image: ['../src/assets/projects/studyabroad.png', '../src/assets/projects/studyabroad2.jpg'],
     tags: [
       'Responsive Web Design',
       'React',
@@ -71,7 +71,10 @@ const internationalProjects = [
       'Selected to be part of an EU-funded project, working with NGOs from France and the Netherlands, aiming to create games that can be used in secondary schools in Europe. My team consists of students from Ireland, Poland, Belgium, and Germany. We developed a demo of a game called City of Extremism using a Javascript game engine',
     location: 'Porto, Portugal',
     link: 'https://github.com/niall-oreilly21/CityOfExtremism',
-    image: ['cityofextremism.png', 'cityofextremism2.jpg'],
+    image: [
+      '../src/assets/projects/cityofextremism.png',
+      '../src/assets/projects/cityofextremism2.jpg'
+    ],
     tags: ['Javascript', 'Game Development', 'Fighting Extremism', 'Teamwork', 'Public Speaking']
   }
 ]
@@ -82,7 +85,7 @@ const projects = [
     description:
       "A website to showcase my projects and skills, and to get to know more about me (which is what you're looking at now!). Hope you're enjoying what you see 😉 (it's still a work in progress!)",
     link: 'https://github.com/luanakimley/luana-kimley',
-    image: 'portfolio.png',
+    image: '../src/assets/projects/portfolio.png',
     tags: ['HTML', 'CSS', 'Vue.js', 'Typescript', 'Bootstrap'],
     international: false
   },
@@ -91,7 +94,7 @@ const projects = [
     description:
       'A system that will provide monitoring and control of a greenhouse that can be accessed through a website. My role was to develop the website using Flask and to design the UI/UX of the website using Figma.',
     link: 'https://github.com/luanakimley/GreenhouseManagementSystem',
-    image: 'greenhouse.png',
+    image: '../src/assets/projects/greenhouse.png',
     tags: [
       'Python',
       'Flask',
@@ -110,7 +113,7 @@ const projects = [
     description:
       'A Java desktop application that will show several informations about the Porto Metro System, such as the schedule, journey planner, and stations. Also provides a feature that allows users to order metro cards. My role was to develop the GUI of the app using JavaFx with FXML and CSS.',
     link: 'https://github.com/niall-oreilly21/PortoMetro',
-    image: 'portometro.png',
+    image: '../src/assets/projects/portometro.png',
     tags: ['Java', 'JavaFx - FXML', 'MySQL', 'CSS', 'Apache Maven'],
     international: false
   },
@@ -119,7 +122,7 @@ const projects = [
     description:
       'A combat game developed in Python using Pygame. I worked mostly on the asset designs and also some of the game mechanics, such as the attack and potions.',
     link: 'https://github.com/niall-oreilly21/Space-Warriors',
-    image: 'spacewarriors.gif',
+    image: '../src/assets/projects/spacewarriors.gif',
     tags: ['Python', 'Pygame', 'Game Development', 'Asset Design'],
     international: false
   },
@@ -129,7 +132,7 @@ const projects = [
       'A responsive web app that allows users to browse and buy products. Consists of three access levels, which are admin, logged-in user, and guest.',
 
     link: 'https://github.com/luanakimley/ecommerce-web-app',
-    image: 'ecommerce.gif',
+    image: '../src/assets/projects/ecommerce.gif',
     tags: ['React', 'Node.js', 'Express', 'HTML', 'MongoDB', 'SCSS', 'Javascript'],
     international: false
   },
@@ -138,7 +141,7 @@ const projects = [
     description:
       'An Android application that displays news from the News API. It is developed using Kotlin and Android Studio.',
     link: 'https://studentdkit-my.sharepoint.com/:v:/g/personal/d00234604_student_dkit_ie/ETCrY3KszYxDuKoFdmJr19YBSUne7HzrmQMoF6RXA1NV_g?e=YMLXKA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19',
-    image: 'androidnews.png',
+    image: '../src/assets/projects/androidnews.png',
     tags: ['Kotlin', 'Android Studio', 'Mobile Development'],
     international: false
   }
@@ -181,12 +184,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
               :key="img"
               :class="{ 'carousel-item': true, active: index === 0 }"
             >
-              <img
-                :src="'../src/assets/' + img"
-                class="card-img-top"
-                alt="Project picture"
-                width="100%"
-              />
+              <img :src="img" class="card-img-top" alt="Project picture" width="100%" />
             </div>
           </div>
           <button
@@ -240,11 +238,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
     </p>
     <div class="container my-5 d-flex flex-wrap justify-content-center gap-5">
       <div v-for="project in projects" :key="project['title']" class="card" style="width: 20rem">
-        <img
-          :src="'../src/assets/' + project['image']"
-          class="card-img-top"
-          alt="Project picture"
-        />
+        <img :src="project['image']" class="card-img-top" alt="Project picture" />
         {{ console.log(project['image']) }}
         <div class="card-body">
           <h3 class="card-title blue text-center m-3">
