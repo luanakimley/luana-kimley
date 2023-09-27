@@ -3,7 +3,11 @@ import NavBar from './NavBar.vue'
 
 const skillCategories = ['Programming', 'Database', 'Design', 'Soft-Skills', 'Interests']
 
-const skills = {
+interface Skills {
+  [key: string]: string[] // This allows any string key to map to an array of strings
+}
+
+const skills: Skills = {
   programming: [
     'JavaScript',
     'React',
