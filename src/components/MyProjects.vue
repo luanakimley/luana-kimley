@@ -182,7 +182,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
               :class="{ 'carousel-item': true, active: index === 0 }"
             >
               <img
-                :src="'../src/assets/projects/' + img"
+                :src="'../src/assets/' + img"
                 class="card-img-top"
                 alt="Project picture"
                 width="100%"
@@ -241,7 +241,7 @@ const getBadgeClass = (index: number) => badgeClass[index % badgeClass.length] +
     <div class="container my-5 d-flex flex-wrap justify-content-center gap-5">
       <div v-for="project in projects" :key="project['title']" class="card" style="width: 20rem">
         <img
-          :src="'../src/assets/projects/' + project['image']"
+          :src="'../src/assets/' + project['image']"
           class="card-img-top"
           alt="Project picture"
         />
